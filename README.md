@@ -4,7 +4,7 @@
 
 ---
 
-##  Overview
+## 🚜 Overview
 
 Farmeasy is a lightweight, farmer-focused AI assistant designed to help smallholder and commercial farmers make better decisions quickly and confidently. Beyond the code, Farmeasy is built to close the information gap between modern agricultural knowledge and the farmer in the field — providing clear, localized, and practical advice about crop care, pest management, fertilization, post-harvest handling, and weather-aware planning.
 
@@ -12,7 +12,7 @@ This repository contains the ingestion, preprocessing, vector store, and API/CLI
 
 ---
 
-## Impact on farmers' lives 
+##  Impact on farmers' lives (in plain language)
 
 Farmeasy is more than software — it's a practical helper for everyday farming problems. Here’s how it can improve lives:
 
@@ -137,13 +137,18 @@ Contributions are welcome! Please open an issue or a pull request with a clear d
 
 ---
 
-## 📬 Contact
+## 📁 Repository Structure
 
-Maintainer: **Pranoy Roy**
-
-If you'd like help extending this project — adding a mobile UI, deploying to low-bandwidth environments, or integrating weather and market data — open an issue or message me on GitHub.
-
----
-
-*Updated README with plain-language impact, uniqueness, and advantages. Ask me to localize the language for a particular region or to add sample dialog examples for farmer interactions.*
-
+```
+Farmeasy/
+├─ .env.example            # Example environment variables
+├─ main.py                 # Main CLI / entrypoint for running experiments
+├─ api.py                  # Simple API wrapper to serve queries (Flask/FastAPI style)
+├─ ingestion.py            # Ingest documents into the system
+├─ preprocessing.py        # Text cleaning and chunking utilities
+├─ vectorstore.py          # Vectorstore implementation (indexing & search)
+├─ utils.py                # Helper utilities
+├─ requirements.txt        # Python dependencies
+├─ test_vectorstore.py     # Unit tests for vector store
+└─ 1000198960.jpg          # Project image / logo
+```
