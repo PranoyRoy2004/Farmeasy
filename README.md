@@ -12,7 +12,7 @@ This repository contains the ingestion, preprocessing, vector store, and API/CLI
 
 ---
 
-##  Impact on farmers' lives (in plain language)
+##  Impact on farmers' lives
 
 Farmeasy is more than software — it's a practical helper for everyday farming problems. Here’s how it can improve lives:
 
